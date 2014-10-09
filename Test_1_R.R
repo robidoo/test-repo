@@ -1,0 +1,6 @@
+install.packages("KernSmooth")
+library(KernSmooth)
+a<-available.packages()
+head(rownames(a),5)
+install.packages(c("A3","ABCExtremes","ABCoptim","ABCp2"))
+search()
